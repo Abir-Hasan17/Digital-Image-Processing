@@ -18,6 +18,5 @@ function smoothed_image = smoothing_max(image)
             end
         end
     end
-    a = "blah"
     smoothed_image = uint8(smoothed_image);
 end

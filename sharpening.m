@@ -22,6 +22,5 @@ function smoothed_image = sharpening(image)
             end
         end
     end
-    a = "blah"
     smoothed_image = uint8(smoothed_image);
 end

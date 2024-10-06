@@ -22,6 +22,5 @@ function smoothed_image = smoothing_weighted(image)
             end
         end
     end
-    a = "blah"
     smoothed_image = uint8(smoothed_image);
 end

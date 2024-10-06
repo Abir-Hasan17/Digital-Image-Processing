@@ -12,6 +12,7 @@ function bitplane_slices = bps(image)
 
         figure
         imshow( bitplane_slices(:,:,:,i))
+        title(['slice no. ' num2str(i)])
     end
 end
 
